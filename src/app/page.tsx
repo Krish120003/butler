@@ -1,3 +1,10 @@
+import Header from "./_components/header";
+
 export default async function Home() {
-  return <main>Hello GitButler</main>;
+  return (
+    <main>
+      <Header />
+      Hello GitButler
+    </main>
+  );
 }
